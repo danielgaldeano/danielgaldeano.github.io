@@ -5,15 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Curriculum Vitae</title>
-    <!-- Open Graph data -->
+    <!-- Open Graph -->
     <meta property="og:title" content="CV Curriculum Vitae" />
     <meta property="og:type" content="new jobs" />
     <meta property="og:image" content="http://portalvirtualempleo.us.es/wp-content/uploads/2018/10/fotocv_02.png" />
-    <meta property="og:description" content="Base de Datos de CV" />
+    <meta property="og:description" content="Base de Datos" />
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-    <h1>prueba</h1>
-    <img src="http://portalvirtualempleo.us.es/wp-content/uploads/2018/10/fotocv_02.png" alt="ERROR DE CARGA" height="100" width="200" />
-    
+    <div class="header">
+        <h1>CV Curriculum Vitae</h1>
+      </div>
+      
+
+    <div class="row">
+        <div class="col-3 menu">
+          <button type="button" id="dato">Datos</button>
+          <button type="button" id="for1">Formacion</button>
+          <button type="button" id="labo">Laborales</button>
+          <button type="button" id="otro">Otros</button>
+          <script src="js/function.js"></script>
+        </div>
+
+        <div class="col-9">
+          <h1>Christine Vasquez</h1>
+          <img src="https://randomuser.me/api/portraits/women/82.jpg"  alt="ERROR DE CARGA" height="100" width="100" >
+          <p>Domicilio: 7633 Stevens Creek Blvd</p>
+          <p>Mail: christine.vasquez@example.com</p>
+          <p>Telefono: (368) 918-7796</p>
+          <p>Fecha Nacimiento: 1/2/1988</p>
+          <p id="cuerpo"></p>
+        </div>
+      </div>
+      
 </body>
 </html>
